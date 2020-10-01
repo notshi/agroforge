@@ -17,6 +17,7 @@
   "directories": {},
   "dependencies": {},
   "devDependencies": {
+    "agrovoc-json": "0.0.2",
     "brfs": "^2.0.2",
     "browserify": "^16.5.1",
     "browserify-css": "^0.15.0",
@@ -24,6 +25,7 @@
     "exorcist": "^1.0.1",
     "servez": "^1.7.0",
     "uglifyify": "^5.0.2",
-    "watchify": "^3.11.1"
+    "watchify": "^3.11.1",
+    "yargs": "^16.0.3"
   }
 }
