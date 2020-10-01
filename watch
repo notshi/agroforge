@@ -1,0 +1,8 @@
+cd `dirname $0`
+
+NAME=agroforge
+
+echo "watchify"
+mkdir plated/source/lib
+npx watchify -t brfs -g [ browserify-css --autoInject=false --minify=true --stripComments=true ] -v -r ./js/$NAME.js:$NAME -d -o plated/source/lib/$NAME.js &
+

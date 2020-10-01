@@ -1,0 +1,9 @@
+cd `dirname $0`
+
+NAME=agroforge
+
+
+echo "browserify"
+mkdir -p plated/source/lib
+npx browserify -t brfs -g [ browserify-css --autoInject=false --minify=true --stripComments=true ] -g uglifyify -r ./js/$NAME.js:$NAME -d | npx exorcist plated/source/lib/$NAME.js.map > plated/source/lib/$NAME.js &
+

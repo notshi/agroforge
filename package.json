@@ -1,0 +1,29 @@
+{
+  "name": "agroforge",
+  "description": "The list of AGRO with the power of the FORGE",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "js/cmd.js",
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notshi/agroforge.git",
+    "directory": "live"
+  },
+  "directories": {},
+  "dependencies": {},
+  "devDependencies": {
+    "brfs": "^2.0.2",
+    "browserify": "^16.5.1",
+    "browserify-css": "^0.15.0",
+    "download": "^7.1.0",
+    "exorcist": "^1.0.1",
+    "servez": "^1.7.0",
+    "uglifyify": "^5.0.2",
+    "watchify": "^3.11.1"
+  }
+}
