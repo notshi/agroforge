@@ -388,8 +388,7 @@
    "level": 5,
    "name": "nitrate-nitrogen",
    "parents": [
-    "c_5192",
-    "c_5193"
+    "c_5192"
    ]
   },
   "c_0e9b70fe": {
@@ -676,8 +675,7 @@
    "level": 8,
    "name": "Densovirus",
    "parents": [
-    "c_3928",
-    "c_5606"
+    "c_3928"
    ]
   },
   "c_10336": {
@@ -919,8 +917,7 @@
    "level": 7,
    "name": "Equine encephalomyelitis virus",
    "parents": [
-    "c_32849",
-    "c_305"
+    "c_32849"
    ]
   },
   "c_10665": {
@@ -4380,7 +4377,6 @@
    "level": 6,
    "name": "serum albumin",
    "parents": [
-    "c_970",
     "c_247"
    ]
   },
@@ -4854,8 +4850,7 @@
    "level": 7,
    "name": "Swine fever virus",
    "parents": [
-    "c_32849",
-    "c_5740"
+    "c_32849"
    ]
   },
   "c_1474": {
@@ -4982,7 +4977,6 @@
    "level": 6,
    "name": "transferrins",
    "parents": [
-    "c_970",
     "c_3307"
    ]
   },
@@ -5511,7 +5505,6 @@
    "level": 3,
    "name": "clay",
    "parents": [
-    "c_7190",
     "c_6628"
    ]
   },
@@ -6134,8 +6127,7 @@
    "level": 7,
    "name": "barley yellow dwarf luteovirus",
    "parents": [
-    "c_5985",
-    "c_32862"
+    "c_5985"
    ]
   },
   "c_1595": {
@@ -6151,8 +6143,7 @@
    "level": 7,
    "name": "cucumber mosaic virus",
    "parents": [
-    "c_5985",
-    "c_32856"
+    "c_5985"
    ]
   },
   "c_15972": {
@@ -6423,8 +6414,7 @@
    "level": 7,
    "name": "Tobacco mosaic tobamovirus",
    "parents": [
-    "c_5985",
-    "c_32869"
+    "c_5985"
    ]
   },
   "c_16055": {
@@ -9964,7 +9954,6 @@
    "level": 5,
    "name": "entomophilic nematodes",
    "parents": [
-    "c_5574",
     "c_920"
    ]
   },
@@ -10533,7 +10522,6 @@
    "level": 4,
    "name": "infiltration water",
    "parents": [
-    "c_7206",
     "c_7205"
    ]
   },
@@ -11920,8 +11908,7 @@
    "level": 5,
    "name": "Entomogenous fungi",
    "parents": [
-    "c_920",
-    "c_3145"
+    "c_920"
    ]
   },
   "c_25884": {
@@ -13450,7 +13437,6 @@
    "level": 5,
    "name": "erythropoietin",
    "parents": [
-    "c_970",
     "c_3307",
     "c_3663"
    ]
@@ -13761,7 +13747,6 @@
    "level": 7,
    "name": "Immobilized bacteria",
    "parents": [
-    "c_765",
     "c_27553"
    ]
   },
@@ -14561,8 +14546,7 @@
    "level": 3,
    "name": "feed grasses",
    "parents": [
-    "c_2843",
-    "c_3362"
+    "c_2843"
    ]
   },
   "c_28320": {
@@ -17962,8 +17946,7 @@
    "level": 4,
    "name": "fuelwood",
    "parents": [
-    "c_8421",
-    "c_27465"
+    "c_8421"
    ]
   },
   "c_31370": {
@@ -19593,8 +19576,7 @@
    "level": 7,
    "name": "Bean common mosaic virus",
    "parents": [
-    "c_5985",
-    "c_32866"
+    "c_5985"
    ]
   },
   "c_32393": {
@@ -19638,8 +19620,7 @@
    "level": 7,
    "name": "Cowpea mosaic comovirus",
    "parents": [
-    "c_5985",
-    "c_32855"
+    "c_5985"
    ]
   },
   "c_32415": {
@@ -19865,8 +19846,7 @@
    "level": 7,
    "name": "Plum pox virus",
    "parents": [
-    "c_5985",
-    "c_32866"
+    "c_5985"
    ]
   },
   "c_32517": {
@@ -19886,8 +19866,7 @@
    "level": 7,
    "name": "Poplar mosaic virus",
    "parents": [
-    "c_5985",
-    "c_32852"
+    "c_5985"
    ]
   },
   "c_32527": {
@@ -19951,8 +19930,7 @@
    "level": 7,
    "name": "Soybean mosaic virus",
    "parents": [
-    "c_5985",
-    "c_32866"
+    "c_5985"
    ]
   },
   "c_32606": {
@@ -19960,8 +19938,7 @@
    "level": 7,
    "name": "Sunn hemp mosaic tobamovirus",
    "parents": [
-    "c_5985",
-    "c_32869"
+    "c_5985"
    ]
   },
   "c_32607": {
@@ -20239,8 +20216,7 @@
    "level": 7,
    "name": "Dianthoviruses",
    "parents": [
-    "c_5985",
-    "c_8262"
+    "c_5985"
    ]
   },
   "c_32859": {
@@ -20982,8 +20958,7 @@
    "level": 7,
    "name": "potato yellow vein virus",
    "parents": [
-    "c_5985",
-    "c_331491"
+    "c_5985"
    ]
   },
   "c_331527": {
@@ -21078,7 +21053,6 @@
    "level": 4,
    "name": "nautical charts",
    "parents": [
-    "c_b43d8acf",
     "c_e4d170f5"
    ]
   },
@@ -21111,8 +21085,7 @@
    "level": 7,
    "name": "Potato leaf roll virus",
    "parents": [
-    "c_5985",
-    "c_32862"
+    "c_5985"
    ]
   },
   "c_33436": {
@@ -21120,8 +21093,7 @@
    "level": 7,
    "name": "Tobacco necrosis necrovirus",
    "parents": [
-    "c_5985",
-    "c_32863"
+    "c_5985"
    ]
   },
   "c_33447": {
@@ -21792,8 +21764,7 @@
    "level": 5,
    "name": "interleukins",
    "parents": [
-    "c_6259",
-    "c_29621"
+    "c_6259"
    ]
   },
   "c_34032": {
@@ -21913,8 +21884,7 @@
    "level": 7,
    "name": "potato mop-top virus",
    "parents": [
-    "c_5985",
-    "c_32858"
+    "c_5985"
    ]
   },
   "c_34081": {
@@ -21922,8 +21892,7 @@
    "level": 7,
    "name": "Potato X potexvirus",
    "parents": [
-    "c_5985",
-    "c_32865"
+    "c_5985"
    ]
   },
   "c_34083": {
@@ -21931,8 +21900,7 @@
    "level": 7,
    "name": "Potato virus Y",
    "parents": [
-    "c_5985",
-    "c_32866"
+    "c_5985"
    ]
   },
   "c_34086": {
@@ -22013,8 +21981,7 @@
    "level": 7,
    "name": "Tomato spotted wilt virus",
    "parents": [
-    "c_5985",
-    "c_1150"
+    "c_5985"
    ]
   },
   "c_34138": {
@@ -22322,8 +22289,7 @@
    "level": 7,
    "name": "Rice yellow mottle virus",
    "parents": [
-    "c_5985",
-    "c_32867"
+    "c_5985"
    ]
   },
   "c_34335": {
@@ -22379,8 +22345,7 @@
    "level": 7,
    "name": "Tobacco rattle tobravirus",
    "parents": [
-    "c_5985",
-    "c_32870"
+    "c_5985"
    ]
   },
   "c_34355": {
@@ -22505,7 +22470,6 @@
    "level": 6,
    "name": "haemoglobin",
    "parents": [
-    "c_970",
     "c_4773"
    ]
   },
@@ -22592,8 +22556,7 @@
    "level": 7,
    "name": "bovine diarrhoea pestivirus",
    "parents": [
-    "c_32849",
-    "c_5740"
+    "c_32849"
    ]
   },
   "c_34793": {
@@ -22892,8 +22855,7 @@
    "level": 7,
    "name": "Bean yellow mosaic virus",
    "parents": [
-    "c_5985",
-    "c_32866"
+    "c_5985"
    ]
   },
   "c_34931": {
@@ -23659,8 +23621,7 @@
    "level": 7,
    "name": "Lelystad virus",
    "parents": [
-    "c_32849",
-    "c_35371"
+    "c_32849"
    ]
   },
   "c_35377": {
@@ -23773,8 +23734,7 @@
    "level": 7,
    "name": "Sugarcane mosaic virus",
    "parents": [
-    "c_5985",
-    "c_32866"
+    "c_5985"
    ]
   },
   "c_35634": {
@@ -23785,8 +23745,7 @@
    "level": 7,
    "name": "Porcine coronavirus",
    "parents": [
-    "c_32849",
-    "c_37003"
+    "c_32849"
    ]
   },
   "c_35638": {
@@ -23794,8 +23753,7 @@
    "level": 7,
    "name": "Feline peritonitis virus",
    "parents": [
-    "c_32849",
-    "c_37003"
+    "c_32849"
    ]
   },
   "c_35657": {
@@ -24510,8 +24468,7 @@
    "level": 7,
    "name": "Zucchini yellow mosaic virus",
    "parents": [
-    "c_5985",
-    "c_32866"
+    "c_5985"
    ]
   },
   "c_36229": {
@@ -26354,8 +26311,7 @@
    "level": 5,
    "name": "ammonium nitrogen",
    "parents": [
-    "c_5192",
-    "c_5193"
+    "c_5192"
    ]
   },
   "c_37463": {
@@ -26452,7 +26408,6 @@
    "level": 4,
    "name": "herbicide selectivity",
    "parents": [
-    "c_23873",
     "c_3566"
    ]
   },
@@ -26655,8 +26610,7 @@
    "level": 7,
    "name": "Equine arteritis virus",
    "parents": [
-    "c_32849",
-    "c_35371"
+    "c_32849"
    ]
   },
   "c_37950": {
@@ -26702,8 +26656,7 @@
    "level": 6,
    "name": "immunoglobulins",
    "parents": [
-    "c_3307",
-    "c_29621"
+    "c_3307"
    ]
   },
   "c_381": {
@@ -26965,7 +26918,6 @@
    "level": 8,
    "name": "Iridoviridae",
    "parents": [
-    "c_8262",
     "c_3928"
    ]
   },
@@ -28583,8 +28535,7 @@
    "level": 3,
    "name": "milk",
    "parents": [
-    "c_438",
-    "c_979"
+    "c_438"
    ]
   },
   "c_4827": {
@@ -28710,8 +28661,7 @@
    "level": 3,
    "name": "mineral oils",
    "parents": [
-    "c_5334",
-    "c_5747"
+    "c_5334"
    ]
   },
   "c_4854": {
@@ -30715,7 +30665,6 @@
    "level": 4,
    "name": "pathogens",
    "parents": [
-    "c_4807",
     "c_92340"
    ]
   },
@@ -31279,8 +31228,7 @@
    "level": 7,
    "name": "Plant rhabdoviruses",
    "parents": [
-    "c_5985",
-    "c_6546"
+    "c_5985"
    ]
   },
   "c_5982": {
@@ -31641,7 +31589,6 @@
    "level": 5,
    "name": "ploughshares",
    "parents": [
-    "c_25717",
     "c_2019"
    ]
   },
@@ -34527,7 +34474,6 @@
    "level": 3,
    "name": "nanomaterials",
    "parents": [
-    "c_1307955710901",
     "c_92337"
    ]
   },
@@ -34732,8 +34678,7 @@
    "level": 5,
    "name": "sweat",
    "parents": [
-    "c_2749",
-    "c_979"
+    "c_2749"
    ]
   },
   "c_7550": {
@@ -35993,8 +35938,7 @@
    "level": 5,
    "name": "urine",
    "parents": [
-    "c_2749",
-    "c_979"
+    "c_2749"
    ]
   },
   "c_810ebd9f": {
@@ -36637,7 +36581,6 @@
    "level": 6,
    "name": "weather ships",
    "parents": [
-    "c_4781",
     "c_7040"
    ]
   },
@@ -36687,7 +36630,6 @@
    "level": 4,
    "name": "windbreaks",
    "parents": [
-    "c_8395",
     "c_6249"
    ]
   },
@@ -37352,8 +37294,7 @@
    "level": 4,
    "name": "wood gas",
    "parents": [
-    "c_16203",
-    "c_be83d79a"
+    "c_16203"
    ]
   },
   "c_8777": {
@@ -37897,8 +37838,7 @@
    "level": 7,
    "name": "Avian infectious bronchitis virus",
    "parents": [
-    "c_32849",
-    "c_37003"
+    "c_32849"
    ]
   },
   "c_9022": {
@@ -38044,7 +37984,6 @@
    "level": 5,
    "name": "biological control arthropods",
    "parents": [
-    "c_8115",
     "c_920"
    ]
   },
@@ -40297,8 +40236,7 @@
    "level": 4,
    "name": "fabrics",
    "parents": [
-    "c_7697",
-    "c_a8f72270"
+    "c_7697"
    ]
   },
   "c_caee47b6": {
@@ -41203,8 +41141,7 @@
    "level": 7,
    "name": "Watermelon mosaic virus",
    "parents": [
-    "c_5985",
-    "c_32866"
+    "c_5985"
    ]
   },
   "c_ebfdf3a4": {

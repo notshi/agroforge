@@ -16,7 +16,8 @@
   },
   "directories": {},
   "dependencies": {
-    "json-stable-stringify": "^1.0.1"
+    "json-stable-stringify": "^1.0.1",
+    "plated": "*"
   },
   "devDependencies": {
     "agrovoc-json": "0.0.2",

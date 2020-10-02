@@ -102,7 +102,23 @@ bake.all=function()
 		let id=names[name]
 		ret.tree[remember(id)]=children(id,1)
 	}
-	
+
+// remove "orphaned" parents
+	for(let id in ret.ids)
+	{
+		let it=ret.ids[id]
+		if( it.parents )
+		{
+			for(let i=it.parents.length-1;i>=0;i--)
+			{
+				let v=it.parents[i]
+				if( ! ret.ids[v] )
+				{
+					it.parents.splice(i,1)
+				}
+			}
+		}		
+	}
 
 	fs.writeFileSync( "js/agro.json", stringify(ret,{"space":" "}) )
 }
