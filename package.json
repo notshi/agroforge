@@ -15,7 +15,9 @@
     "directory": "live"
   },
   "directories": {},
-  "dependencies": {},
+  "dependencies": {
+    "json-stable-stringify": "^1.0.1"
+  },
   "devDependencies": {
     "agrovoc-json": "0.0.2",
     "brfs": "^2.0.2",
