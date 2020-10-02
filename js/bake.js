@@ -126,6 +126,8 @@ bake.all=function()
 		let it=ret.ids[id]
 		if(it.seed) { return it } // already done
 		
+//		it.name=it.name.toLowerCase()
+
 		if(it.id.length==10) // hex
 		{
 			it.seed=parseInt(it.id.substring(2),16)
@@ -134,7 +136,6 @@ bake.all=function()
 		{
 			it.seed=parseInt(it.id.substring(2),10)
 		}
-
 		let aa=it.name.toLowerCase().replace(/[aeiou]/ig,"").split(" ")
 		while( aa.length>1 && ( aa[aa.length-1].length<2 ) ) { aa.pop() }
 		if(aa.length>1)
