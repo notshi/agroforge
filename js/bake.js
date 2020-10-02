@@ -124,6 +124,35 @@ bake.all=function()
 	let build ; build=function(id)
 	{
 		let it=ret.ids[id]
+		if(it.seed) { return it } // already done
+		
+		if(it.id.length==10) // hex
+		{
+			it.seed=parseInt(it.id.substring(2),16)
+		}
+		else // decimal
+		{
+			it.seed=parseInt(it.id.substring(2),10)
+		}
+
+		let aa=it.name.toLowerCase().replace(/[aeiou]/ig,"").split(" ")
+		while( aa.length>1 && ( aa[aa.length-1].length<2 ) ) { aa.pop() }
+		if(aa.length>1)
+		{
+			it.symbol=(aa[0][0]).toUpperCase()+(aa[0][1])+" "+(aa[aa.length-1][0]).toUpperCase()+(aa[aa.length-1][1])
+		}
+		else
+		{
+			if(aa[0][1])
+			{
+				it.symbol=(aa[0][0]).toUpperCase()+(aa[0][1])
+			}
+			else
+			{
+				it.symbol=(it.name[0]).toUpperCase()+(it.name[1]).toLowerCase()
+			}
+		}
+
 		if( it.parents )
 		{
 			let bestp
@@ -148,15 +177,12 @@ bake.all=function()
 				it.parent=bestp.id
 				it.top=bestp.top
 			}
-			if( it.parents.length > 1 )
-			{
-				print(it)
-			}
 		}
 		else
 		{
 			it.top=it.id
 		}
+
 		return it
 	}
 	for(let id in ret.ids)
