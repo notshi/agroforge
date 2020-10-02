@@ -17,16 +17,16 @@
   "directories": {},
   "dependencies": {
     "json-stable-stringify": "^1.0.1",
-    "plated": "*"
+    "plated": "^0.0.84"
   },
   "devDependencies": {
     "agrovoc-json": "0.0.2",
     "brfs": "^2.0.2",
-    "browserify": "^16.5.1",
+    "browserify": "^16.5.2",
     "browserify-css": "^0.15.0",
-    "download": "^7.1.0",
+    "download": "^8.0.0",
     "exorcist": "^1.0.1",
-    "servez": "^1.7.0",
+    "servez": "^1.10.0",
     "uglifyify": "^5.0.2",
     "watchify": "^3.11.1",
     "yargs": "^16.0.3"

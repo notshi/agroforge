@@ -8,3 +8,7 @@ git submodule update --init --reference .
 git pull --recurse-submodules && git submodule update --recursive --remote
 
 plated/upgrade
+
+npx npm-check-updates -u
+npm install
+
