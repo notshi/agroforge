@@ -120,6 +120,50 @@ bake.all=function()
 		}		
 	}
 
+// build extra data points
+	let build ; build=function(id)
+	{
+		let it=ret.ids[id]
+		if( it.parents )
+		{
+			let bestp
+			for(let i in it.parents )
+			{
+				let v=it.parents[i]
+				let p=build(v)
+				if(!bestp)
+				{
+					bestp=p
+				}
+				else
+				{
+					if( p.level < bestp.level )
+					{
+						bestp=p
+					}
+				}
+			}
+			if( bestp )
+			{
+				it.parent=bestp.id
+				it.top=bestp.top
+			}
+			if( it.parents.length > 1 )
+			{
+				print(it)
+			}
+		}
+		else
+		{
+			it.top=it.id
+		}
+		return it
+	}
+	for(let id in ret.ids)
+	{
+		build(id)
+	}
+
 	fs.writeFileSync( "js/agro.json", stringify(ret,{"space":" "}) )
 }
 
