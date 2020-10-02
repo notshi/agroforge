@@ -28,7 +28,7 @@
     "download": "^8.0.0",
     "exorcist": "^1.0.1",
     "servez": "^1.10.0",
-    "uglifyify": "^5.0.2",
+    "terser": "*",
     "watchify": "^3.11.1",
     "yargs": "^16.0.3"
   }
