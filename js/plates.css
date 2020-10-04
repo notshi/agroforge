@@ -1,4 +1,28 @@
+#^css
 
+#view_dual {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: #866;
+}
 
+#view_left {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: #686;
+}
 
-
+#view_right {
+	position: absolute;
+	width: 50%;
+	height: 100%;
+	top: 0px;
+	left: 50%;
+	background-color: #668;
+}

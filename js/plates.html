@@ -1,4 +1,27 @@
 
+#^view_dual trim=ends
 
+<div id="view_dual"><div id="view_left"></div><div id="view_right"></div></div>
 
+#^zero trim=ends
+0
 
+#^info_agro_list
+
+<div>{_it.symbol} : {_it.name} : {_it.id} : {_it.seed}</div>
+
+#^info_agro
+
+<div>{_it.top.name}({_it.level})</div>
+
+<div>{_it.symbol} : {_it.name} : {_it.id} : {_it.seed}</div>
+
+<div>
+	<div>PARENTS {_it.parents.length||zero}</div>
+	{_it.parents:info_agro_list||}
+</div>
+
+<div>
+	<div>CHILDREN {_it.children.length||zero}</div>
+	{_it.children:info_agro_list||}
+</div>
