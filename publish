@@ -1,0 +1,8 @@
+cd `dirname $0`
+
+git pull
+./build
+git add -v docs
+git commit -m"docs"
+git push
+
