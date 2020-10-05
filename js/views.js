@@ -60,6 +60,7 @@ views.show_view=function(name)
 	}
 }
 
+views.map_old_views={}
 views.hash={}
 views.display_wait_time=((new Date()).getTime())
 views.display_wait=0
