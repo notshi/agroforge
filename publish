@@ -1,7 +1,7 @@
 cd `dirname $0`
 
 
-echo "creating new orphan branch"
+echo "creating new orphan branch in docs"
 
 rm -rf docs
 mkdir docs
@@ -17,10 +17,11 @@ git --work-tree=docs add .
 git --work-tree=docs commit -m.
 git --work-tree=docs push --set-upstream origin -f gh-pages
 
-echo "restoring original"
+echo "restoring original docs folder"
 
-#rm -rf docs
-#git pull
-#./build
+git --work-tree=docs checkout master
+rm -rf docs
+git pull
+./build
 
 
