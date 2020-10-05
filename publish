@@ -11,6 +11,7 @@ cd docs
 git branch -D gh-pages
 git checkout --orphan gh-pages
 git rm -rf .
+rm .gitignore
 cd ..
 
 
@@ -20,7 +21,7 @@ echo "building and publishing"
 cd docs
 git add .
 git commit -m.
-#git push --set-upstream origin -f gh-pages
+git push --set-upstream origin -f gh-pages
 cd ..
 
 echo "restoring original"
