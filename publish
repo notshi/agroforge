@@ -4,31 +4,23 @@ cd `dirname $0`
 echo "creating new orphan branch"
 
 rm -rf docs
-git clone git@github.com:notshi/agroforge.git docs --no-checkout
+mkdir docs
 
-
-cd docs
-git branch -D gh-pages
-git checkout --orphan gh-pages
-git rm -rf .
-rm .gitignore
-cd ..
-
+git --work-tree=docs branch -D gh-pages
+git --work-tree=docs checkout --orphan gh-pages
+git --work-tree=docs rm -rf .
 
 echo "building and publishing"
 
 ./build
-cd docs
-git --git-dir ./.git add .
-git --git-dir ./.git commit -m.
-git --git-dir ./.git push --set-upstream origin -f gh-pages
-cd ..
+git --work-tree=docs add .
+git --work-tree=docs commit -m.
+git --work-tree=docs push --set-upstream origin -f gh-pages
 
 echo "restoring original"
 
-rm -rf docs
-
-git pull
-./build
+#rm -rf docs
+#git pull
+#./build
 
 
