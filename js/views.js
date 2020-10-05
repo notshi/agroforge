@@ -139,12 +139,15 @@ views.encodeURIComponent=function(str)
 
 views.display_hash=function()
 {
-	let a=[]
+	let aa=[]
 	for(let n in views.hash)
 	{
-		a.push(n+"="+views.encodeURIComponent(views.hash[n]))
+		aa.push(n+"="+views.encodeURIComponent(views.hash[n]))
 	}
-	document.location.hash=a.join("&")
+	aa.sort(function(a,b){
+		return a.localeCompare(b)
+	})
+	document.location.hash=aa.join("&")
 	views.last_hash=document.location.hash // disable change logic
 }
 
