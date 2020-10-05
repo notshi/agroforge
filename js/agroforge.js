@@ -34,16 +34,8 @@ agroforge.start_loaded=async function(){
 
 	$("html").prepend(plates.plate('<style>{css}</style>')) // load our styles
 	
-	views.setup()
-
-/*
 	$("body").append(plates.plate('{view_dual}'))
 
-	plates.chunks.item=agro.prepare("c_5550",true)
-	print(plates.chunks.item)
-	$("#view_right").empty().append(plates.plate('{item:info_agro}'))
-	delete plates.chunks.item
-
-*/
+	views.setup("#view_right")
 
 }

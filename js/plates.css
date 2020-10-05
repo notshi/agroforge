@@ -25,4 +25,5 @@
 	top: 0px;
 	left: 50%;
 	background-color: #668;
+	overflow: scroll;
 }

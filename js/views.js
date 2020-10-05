@@ -3,11 +3,15 @@ let views=exports
 
 let plates=require("./plates.js")
 
-views.list=[]
+views.list={
+	"main"	:	require("./view_main.js")
+}
 
 
-views.setup=function()
+views.setup=function(div)
 {
+	views.div=$(div)
+
 	$(window).bind( 'hashchange', function(e) { views.check_hash() } )
 
 	// wait for images to load before performing any data requests?
@@ -28,8 +32,13 @@ views.setup=function()
 }
 
 
+views.fill=function(s)
+{
+	views.div.html(s)
+}
 
-views.hash={}
+
+
 views.hash_split=function(q,v)
 {
 	v=v||{}
@@ -188,7 +197,7 @@ views.check_hash=function()
 			}
 			else // default fill
 			{
-					$("body").html( plates.plate( "{view_"+l.view+"}" ) )
+				views.fill(plates.plate( "{view_"+l.view+"}" ))
 			}
 			if(v && v.fixup)
 			{
