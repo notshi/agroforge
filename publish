@@ -19,9 +19,9 @@ echo "building and publishing"
 
 ./build
 cd docs
-git add .
-git commit -m.
-git push --set-upstream origin -f gh-pages
+git --git-dir ./.git add .
+git --git-dir ./.git commit -m.
+git --git-dir ./.git push --set-upstream origin -f gh-pages
 cd ..
 
 echo "restoring original"
