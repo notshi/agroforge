@@ -16,20 +16,20 @@
   },
   "directories": {},
   "dependencies": {
-    "jquery": "^3.5.1",
-    "json-stable-stringify": "^1.0.1",
-    "plated": "^0.0.84"
+    "jquery": "^3.7.0",
+    "json-stable-stringify": "^1.0.2",
+    "plated": "^0.0.89"
   },
   "devDependencies": {
     "agrovoc-json": "0.0.2",
     "brfs": "^2.0.2",
-    "browserify": "^16.5.2",
+    "browserify": "^17.0.0",
     "browserify-css": "^0.15.0",
     "download": "^8.0.0",
-    "exorcist": "^1.0.1",
-    "servez": "^1.10.0",
+    "exorcist": "^2.0.0",
+    "servez": "^2.0.0",
     "terser": "*",
-    "watchify": "^3.11.1",
-    "yargs": "^16.0.3"
+    "watchify": "^4.0.0",
+    "yargs": "^17.7.2"
   }
 }

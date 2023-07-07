@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "ecstatic": "*",
-    "plated": "0.0.84"
+    "plated": "0.0.89"
   }
 }
