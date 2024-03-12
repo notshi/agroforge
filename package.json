@@ -17,8 +17,8 @@
   "directories": {},
   "dependencies": {
     "jquery": "^3.7.1",
-    "json-stable-stringify": "^1.0.2",
-    "plated": "^0.0.89"
+    "json-stable-stringify": "^1.1.1",
+    "plated": "^0.0.100"
   },
   "devDependencies": {
     "agrovoc-json": "0.0.2",
@@ -27,7 +27,7 @@
     "browserify-css": "^0.15.0",
     "download": "^8.0.0",
     "exorcist": "^2.0.0",
-    "servez": "^2.1.1",
+    "servez": "^2.1.3",
     "terser": "*",
     "watchify": "^4.0.0",
     "yargs": "^17.7.2"
