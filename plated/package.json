@@ -8,7 +8,12 @@
     "url": "git+https://github.com/xriss/plated-example.git"
   },
   "dependencies": {
+<<<<<<< HEAD
     "ecstatic": "*",
     "plated": "0.0.89"
+=======
+    "http-server": "*",
+    "plated": "*"
+>>>>>>> 7554ce2ef379574e1b5b73a6ccec3a6b792ef43e
   }
 }
